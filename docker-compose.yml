@@ -1,0 +1,6 @@
+version: '2'
+services:
+    nodeserver:
+        build: .
+        ports: 
+            - "84:3001"
